@@ -1,0 +1,531 @@
+<resources>
+    <string name="app_name">DrinkItApp</string>
+
+    <string name="button_loginBtn">Login</string>
+    <string name="button_loginGian">Login</string>
+    <string name="button_secondBtnGian">Contact us!</string>
+    <string name="button_signUp">Sign Up</string>
+
+
+    <string name="edit_eMail">Email</string>
+    <string name="edit_password">Password</string>
+    <string name="edit_username">Name</string>
+
+    <string name="notify_defaultChannel">dummyChannel_01</string>
+    <string name="notify_defaultTitle">dummyTitle_01</string>
+
+    <string name="tab_login">Log in</string>
+    <string name="tab_registration">Sign up</string>
+
+    <string name="text_dummyGian">Dito is hot in a 5km radius</string>
+    <string name="text_dummyHello">Hello, my old Friend!</string>
+    <string name="text_dummyHello2">You again, my old Friend!</string>
+    <string name="text_homeScreen">This is the Homepage.</string>
+    <string name="text_splashScreen">DrinkApp</string>
+
+    <string name="view_eMail">Email</string>
+    <string name="view_eMailGian">E-mail Address</string>
+    <string name="view_forgotPwdGian">Forgot Password</string>
+    <string name="view_password">Password</string>
+    <string name="view_passwordGian">Password</string>
+    <string name="view_signAsHost">Would you prefer to have a look around as Guest?</string>
+    <string name="view_signInTitle">Log-in</string>
+    <string name="view_signUpTitle">Sing-in</string>
+    <string name="view_username">Username</string>
+    <string name="clickHere">Click here!</string>
+    <string name="text_regitstrationBtn">Sign up</string>
+
+    <string name="text_welcomeMsg">First things first, why don\'t you tell us something about %s\nThis will help us giving you more accurate results for the Alcohol Test.</string>
+    <string name="text_welcomeMsgHome">First things first, why don\'t you tell us something about you?\nThis will help us giving you more accurate results for the Alcohol Test.</string>
+    <string name="data_userAge">How old are you?</string>
+    <string name="data_userHeight">Height (cm)</string>
+    <string name="text_welcomeMsg2">Welcome!</string>
+    <string name="data_userGender">What is your gender?</string>
+    <string name="data_male">Man</string>
+    <string name="data_female">Woman</string>
+    <string name="data_bonesLight">Thin</string>
+    <string name="data_bonesMedium">Medium</string>
+    <string name="data_bonesHeavy">Large</string>
+    <string name="button_saveData">Save</string>
+
+    <string name="text_whichBones">What is your build?</string>
+
+    <string name="text_signedInFmt">Signed in as: %s</string>
+    <string name="text_signedOutGoogle">Signed out</string>
+
+    <string name="text_signOutGoogle">Sign Out</string>
+    <string name="text_disconnectGoogle">Disconnect</string>
+
+    <string name="intent_deepLink">Deep-DrinkApp</string>
+
+    <string name="fb_appId">253625351962241</string>
+    <string name="fb_loginProtocolScheme" translatable="false">fb253625351962241</string>
+
+    <string name="text_socialButton">or Login with:</string>
+
+    <string name="text_blankFragment">Hello new Fragment!</string>
+    <string name="text_displaySettings">Settings</string>
+
+    <string name="ModificaProfiloTitle">Profile Settings</string>
+    <string name="NewMailText">New Email</string>
+    <string name="text_myNewCredentials">Change your Password</string>
+    <string name="text_old_password">Old Password</string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="text_insert_new_password">New Password</string>
+
+
+    <!-- Settings for General-->
+
+    <string name="pref_headerGeneral">General</string>
+
+    <string name="pref_socialRecommendations">Enable social recommendations</string>
+    <string name="pref_descrSocialRecommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="uber_check">Enable Uber© services</string>
+    <string name="call_button">Get an Uber© Ride!</string>
+    <string name="home_main_text">This is DrinkItApp!\nDrink responsibly.</string>
+    <string name="customUberTxt">Uber© Button</string>
+
+    <string name="copyAccessToken">Copy Access Token to Clipboard</string>
+    <string name="clearAccessToken">Clear Access Token</string>
+    <string name="userCancelsMsg">User cancels Login</string>
+    <string name="loginErrorMsg">Error occured during Login: %s</string>
+    <string name="authCodeMsg">Received an Authorization:\\n %s</string>
+    <string name="greetingUser">Hello %s!</string>
+
+    <string name="text_notification_title">Your Notifications</string>
+    <string name="text_notification_request">Do you want to enable notifications?</string>
+    <string name="checkBox_notification">Enable !</string>
+    <string name="text_uberSettingTitle">Uber Settings</string>
+    <string name="text_uberSettingRequest">Do you want to enable Uber© settings on DrinkItApp?</string>
+    <string name="checkBoxUber">Disable!</string>
+
+
+    <string name="CheckBoxUber">Enable!</string>
+    <string name="EditText_myNewHome">Address</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome_cocktail">What did you drink?</string>
+    <string name="add_cocktail">Add to List</string>
+    <string name="remove_cocktail">x</string>
+
+    <string name="tv_create_cocktail">Can\'t find your Drink?</string>
+    <string name="clickable_insert_cocktail">Create it!</string>
+    <string name="clickable_remove_cocktail">Remove</string>
+
+    <string name="recap_drink">Selected Drinks:</string>
+    <string name="drinklist"></string>
+
+    <string name="text_title_Settings">Settings</string>
+    <string name="text_title_notifications">Notification</string>
+    <string name="text_title_uberSettings">Uber©</string>
+    <string name="text_title_creditSetting">About us</string>
+    <string name="text_title_tutorial">Tutorial</string>
+    <string name="text_title_newPasswordSetting">Change the Password</string>
+    <string name="text_reflex_test_title">Reflex Game</string>
+    <string name="text_description_reflex">The game will start by pressing the button; try to stop the car before the pedestrian crossing with the same button. Failing could mean that your reflexes are slowed down by the alcohol </string>
+    <string name="uber_welcome_message">Call an Uber!</string>
+    <string name="location_permission_request">Use your current GPS position</string>
+    <string name="textview_position">Type your Position:</string>
+    <string name="app_title_bar">DrinkItApp</string>
+    <string name="title_reflexTest">Reflex Game</string>
+    <string name="switch_button">Notifications</string>
+    <string name="item_setting_title">Settings</string>
+    <string name="text_title_logOutSetting">Log-out</string>
+    <string name="text_reflexTest_title">Reflex Game</string>
+    <string name="button_testButton">Button</string>
+    <string name="text_title_registerBtnSetting">Sign in</string>
+    <string name="textView_aboutUs_title">DrinkApp</string>
+    <string name="editText_creditTitle">What is DrinkItApp?</string>
+    <string name="textView_creditDescription">In Europe more than 10 thousand people a year die due to alcohol related car accidents.\nDrinkItApp allows you to calculate your BAC according to your physical characteristics and what you\'ve drunk. \nThe result is a mere estimate. DrinkItApp and its staff do not support or encourage in any way alcohol abuse and recommend you to not drive after you drank. </string>
+    <string name="item_info_title">Info</string>
+    <string name="textView_info_risks">What do you risk?</string>
+    <string name="TextView_title_infoPage">Info</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="normal_stomach">A Little</string>
+    <string name="stomach_question">How much did you eat?</string>
+    <string name="minutes_question">How long ago have you had your last Drink?</string>
+    <string name="new_minutes_question">How long ago?</string>
+
+    <string name="default_webClientId">229809367707-cflf0dofcgutp8529d1tl2ajalt0jen9.apps.googleusercontent.com</string>
+    <string name="textView_retryText">You were too slow, it took you\n%.2f seconds</string>
+    <string name="textview_risks">L’alcol provoca un\'iniziale euforia e perdita dei freni inibitori, ma a quantità progressivamente crescenti corrispondono effetti come riduzione della visione laterale (visione a tunnel), perdita di equilibrio, difficoltà motorie, nausea e confusione.\nQuantità eccessive di alcol possono portare fino al coma e alla morte.</string>
+    <string name="create_drink_tv">Create your Drink!</string>
+    <string name="create_name">Drink Name</string>
+    <string name="create_tax">Alcoholic %</string>
+    <string name="create_tv2">If you don\'t know the alcoholic %, choose between these:</string>
+    <string name="low">Mild</string>
+    <string name="strong">Strong</string>
+    <string name="very_strong">Very Strong</string>
+    <string name="create_cancel">CANCEL</string>
+    <string name="create_confirm">CONFIRM</string>
+
+    <string name="item_DrinkHistory">DrinkHistory</string>
+
+    <string name="notWarning">You\'re under the limit but you should still drive cautiously  </string>
+    <string name="warning0_5">You\'re above the limit. You could be fined between 500 and 2000 euros and have your license suspended from 3 to 6 months</string>
+    <string name="warning0_8">You\'re way above the limit. You could be fined between 800 and 3200 euros, you could get arrested or your license suspended up to one year </string>
+    <string name="warning1_5">You\'re dangerously above the limit. You could be fined between 1500 and 6000 euros, get arrested up to a year, have your license suspended for two years and get your car stopped.</string>
+    <string name="item_title_myDrinks">MyDrinks</string>
+
+
+    <string name="btn_nextPage">Next</string>
+    <string name="btn_prevPage">Back</string>
+    <string name="btn_finishPage">Finish</string>
+    <string name="text_slideHeading">Heading</string>
+    <string name="text_slideDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor error, fuga inventore officia quod repellendus.</string>
+
+
+    <string name="disclamer">The shown results are a mere estimate.\nDrinkItApp and its staff do not encourage or endorse in any way alcohol abuse and reminds you to drink responsibly and not to drive afterwards.</string>
+
+    <string name="error_inputPwd">Password must be at least 6 letter long and must contain a number and a Capitol letter (es. Taylor1)</string>
+    <string name="error_inputName">Name not valid (es. Mario Rossi)</string>
+    <string name="error_inputEmail">Email not valid</string>
+    <string name="notif_sober">you should be sober</string>
+    <string name="notif_drive">you should be able to drive</string>
+
+    <string name="calc_sober">Sober in</string>
+    <string name="calc_drive">Able to drive in</string>
+
+
+    <string name="uber_setting2">Type your Destination:</string>
+    <string name="address_current">Current Address</string>
+    <string name="address_destination">Destination Address</string>
+    <string name="find_ride">Find a Ride</string>
+    <string name="taxi_fragment">Are you wasted and now you want to go home or anywhere else? No problem! Tell us where you are and where you want to go, and an Uber© will take you there.</string>
+
+
+    <string name="offline_unusable">Not available in Offline session</string>
+    <string name="host_unusable">Not available as Guest</string>
+    <string name="logout_warn">Do you really want to Logout?</string>
+    <string name="missing_fields">Please complete the missing fields</string>
+    <string name="enable_gps">Connection failed.\nGPS may be disabled</string>
+    <string name="positon_error">Couldn\'t find the requested position</string>
+
+    <string name="too_short">Aren\'t you a little too short?</string>
+    <string name="too_old">You shouldn\'t drink at your age, Sir/Miss</string>
+    <string name="too_tall">Are you really that tall?</string>
+    <string name="too_young">You must be 14 years old at least to use this App</string>
+
+    <string name="tutorial_enter">Sign up with your Email , Google account, Facebook account or start a Guest session to enjoy a easier experience.</string>
+    <string name="tutorial_test">Calculate your BAC based on what you\'ve drunk, what you\'ve eaten and your physical characteristics, then find out what you risk according to your result. We remind you that DrinkItApp provides a mere estimate of your BAC and do not encourage or endorse alcohol abuse. </string>
+    <string name="tutorial_utilities">Customize your Drinks, test your reflexes with our game, turn on the notification to know when you\'ll be able to drive or get a Uber© ride to take you home or any other emergency service.</string>
+    <string name="tutorial_offline">Party night without Internet connection? Do not worry, we thought about that too.</string>
+
+    <string name="history_message">No History found, so far…\n\nThis section will store your Alcohol Tests so you can go through everything you drank that night.\nCalculate something to see all your epic \'Drink-nights\' remembered here!</string>
+    <string name="mydrinks_message">We did our best to source a good amount of any kind of Drinks, but if you feel that something is missing you can create your personal Drink and store it here!</string>
+    <string name="tv_cheerUser">Welcome, bibulous %s!</string>
+
+    <string name="liter1_4">1/4 liter</string>
+    <string name="liter1_2">1/2 liter</string>
+    <string name="liter1">1 liter</string>
+    <string name="test_won">You Won</string>
+    <string name="test_play">PLAY AGAIN</string>
+    <string name="test_took">Congratulation, it took you\n</string>
+    <string name="test_back">BACK</string>
+    <string name="test_stop">STOP!</string>
+    <string name="test_again">START AGAIN</string>
+
+
+    <string name="calc_h">More than 24 h</string>
+    <string name="calc_now">Now</string>
+
+    <string name="drink_dialog">Calculating...</string>
+    <string name="drink_error">Sorry, an error occurred</string>
+    <string name="drink_option">Select at least one option</string>
+    <string name="drink_short">Use a shorter name</string>
+    <string name="drink_fields">Ensure that are fields are correct</string>
+    <string name="drink_name">Use a different name</string>
+    <string name="drink_notfound">The selected Drink does not exists, do you want to create it?</string>
+
+    <string name="history_fail">Couldn\'t load History</string>
+
+
+    <string name="excl_log">Only for Logged users</string>
+
+    <string name="tv_privacy_read">Read our Privacy policy</string>
+    <string name ="user_profile_title">My Profile</string>
+    <string name="reflexalert_continue">CONTINUE</string>
+    <string name="reflexalert_title">Reflex Game</string>
+    <string name="reflexalert_descr">This game tests your reflexes.\nOnce you press Continue the car will start... \nStop it in time!</string>
+    <string name="drink_calculate">CALCULATE</string>
+    <string name="drink3_name">Drink Name</string>
+    <string name="drink_glass">Glass Type</string>
+    <string name="drink_qty">How many?</string>
+    <string name="empty_stomach">Empty</string>
+    <string name="filled_stomach">Full</string>
+    <string name="drink_added">"%d Drinks selected"</string>
+    <string name="textView_flow_description" translatable="false">\'Flow\' è la funzione che monitora tutto ciò che bevi nell\'arco di una giornata, fornendoti costantemente il tuo tasso alcolemico aggiornato, in ogni momento.</string>
+    <string name="dummy_prova" translatable="false">prova</string>
+    <string name="tv_minutes_ago" translatable="false">minutes ago</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="version">Version:</string>
+
+    <string name="card_remove">Do you want to remove this Drink?</string>
+
+    <string name="tv_start_reflex_test">START</string>
+
+    <string name="tv_no_drink">There are no Drinks yet</string>
+
+    <string name="stomach_empty">Empty\nStomach</string>
+    <string name="stomach_empty_history">Empty Stomach</string>
+
+    <string name="stomach_full">Full\nMeal</string>
+    <string name="stomach_full_history">Full Meal</string>
+
+
+
+    <string name="tv_sign_as_host">Sign in as a Guest</string>
+    <string name="tv_guest">Guest</string>
+    <string name="tv_other_login">or enter with</string>
+    <string name="tv_guest_new">Guest</string>
+
+    <string name="stomach_medium">Snack</string>
+
+    <string name="alc_per">BAC</string>
+    <string name="stomach_hist">Stomach</string>
+    <string name="hist_date_hour">Date and Time</string>
+
+    <string name="tv_call_uber" translatable="false">Uber</string>
+    <string name="tv_call_taxi" translatable="false">Taxi</string>
+    <string name="tv_call_police">Police</string>
+    <string name="tv_call_ambulance">Ambulance</string>
+    <string name="tv_get_home_safe">Get Home safe</string>
+
+    <!-- Copied from new App -->
+    <string name="error_copyDatabaseFail">Error copying Database to %s</string>
+
+    <!-- Drinks names -->
+    <string name="drinkId001_AmaroDelCapo" translatable="false">Amaro del Capo</string>
+    <string name="drinkId002_AmarettoSour" translatable="false">Amaretto Sour</string>
+    <string name="drinkId003_AmaroMontenegro" translatable="false">Amaro Montenegro</string>
+    <string name="drinkId004_Americano" translatable="false">Americano</string>
+    <string name="drinkId005_Analcolico">Mocktail</string>
+    <string name="drinkId006_AngeloAzzurro" translatable="false">Angelo Azzurro</string>
+    <string name="drinkId007_Absinth" translatable="false">Absinth</string>
+    <string name="drinkId008_BahamaMama" translatable="false">Bahama Mama</string>
+    <string name="drinkId009_Baileys" translatable="false">Baileys</string>
+    <string name="drinkId010_Bellini" translatable="false">Bellini</string>
+    <string name="drinkId011_PaleAle4">Light Beer 4%</string>
+    <string name="drinkId012_BrownAle5">Red Beer 5%</string>
+    <string name="drinkId013_IPA8" translatable="false">IPA Beer 8%</string>
+    <string name="drinkId014_BlackRussian" translatable="false">Black Russian</string>
+    <string name="drinkId015_BloodyMary" translatable="false">Bloody Mary</string>
+    <string name="drinkId016_Bonarda" translatable="false">Bonarda</string>
+    <string name="drinkId017_Boulevardier" translatable="false">Boulevardier</string>
+    <string name="drinkId018_Bourbon" translatable="false">Bourbon</string>
+    <string name="drinkId019_BrandyCobbler" translatable="false">Brandy Cobbler</string>
+    <string name="drinkId020_BrandySour" translatable="false">Brandy Sour</string>
+    <string name="drinkId021_Braulio" translatable="false">Braulio</string>
+    <string name="drinkId022_Caipirinha" translatable="false">Caipirinha</string>
+    <string name="drinkId023_Caipiroska" translatable="false">Caipiroska</string>
+    <string name="drinkId024_Campari" translatable="false">Campari</string>
+    <string name="drinkId025_Cardinale" translatable="false">Cardinale</string>
+    <string name="drinkId026_Champagne" translatable="false">Champagne</string>
+    <string name="drinkId027_Chartreuse" translatable="false">Chartreuse</string>
+    <string name="drinkId028_Chianti" translatable="false">Chianti</string>
+    <string name="drinkId029_ChicagoFizz" translatable="false">Chicago Fizz</string>
+    <string name="drinkId030_Cinzano" translatable="false">Cinzano</string>
+    <string name="drinkId031_Cognac" translatable="false">Cognac</string>
+    <string name="drinkId032_Cointreau" translatable="false">Cointreau</string>
+    <string name="drinkId033_Cosmopolitan" translatable="false">Cosmopolitan</string>
+    <string name="drinkId034_CremaDiBanane">Banana\'s Cream</string>
+    <string name="drinkId035_CremaDiLimoncello">Limoncello\'s Cream</string>
+    <string name="drinkId036_CremeDeCassis">Creme de Cassis</string>
+    <string name="drinkId037_CubaLibre" translatable="false">Cuba Libre</string>
+    <string name="drinkId038_Curacao" translatable="false">Curacao</string>
+    <string name="drinkId039_Cynar" translatable="false">Cynar</string>
+    <string name="drinkId040_Daiquiri" translatable="false">Daiquiri</string>
+    <string name="drinkId041_DoubleMaltBeer10">Strong Beer 10%</string>
+    <string name="drinkId042_Drambuie" translatable="false">Drambuie</string>
+    <string name="drinkId043_Fernet" translatable="false">Fernet</string>
+    <string name="drinkId044_FlyingDutchman" translatable="false">Flying Dutchman</string>
+    <string name="drinkId045_Genziana" translatable="false">Genziana</string>
+    <string name="drinkId046_Gin" translatable="false">Gin</string>
+    <string name="drinkId047_GinFizz" translatable="false">Gin Fizz</string>
+    <string name="drinkId048_GinLemon" translatable="false">Gin Lemon</string>
+    <string name="drinkId049_GinTonic" translatable="false">Gin Tonic</string>
+    <string name="drinkId050_GrandMarnier" translatable="false">Grand Marnier</string>
+    <string name="drinkId051_Grappa" translatable="false">Grappa</string>
+    <string name="drinkId052_Grasshopper" translatable="false">Grasshopper</string>
+    <string name="drinkId053_Guinness" translatable="false">Guinness</string>
+    <string name="drinkId054_IrishWhiskey">Irish Whiskey</string>
+    <string name="drinkId055_JackAndCola">Jack &amp; Cola</string>
+    <string name="drinkId056_Jagermeister" translatable="false">Jagermeister</string>
+    <string name="drinkId057_JapaneseIcedTea">Japanese Iced Tea</string>
+    <string name="drinkId058_Kahlua" translatable="false">Kahlua</string>
+    <string name="drinkId059_Lager" translatable="false">Lager</string>
+    <string name="drinkId060_Lambrusco" translatable="false">Lambrusco</string>
+    <string name="drinkId061_Limoncello" translatable="false">Limoncello</string>
+    <string name="drinkId062_CraftBeer5">Beer 5%</string>
+    <string name="drinkId063_Madeira" translatable="false">Madeira</string>
+    <string name="drinkId064_Malibu" translatable="false">Malibu</string>
+    <string name="drinkId065_MalibuCola">Malibu &amp; Cola</string>
+    <string name="drinkId066_Mandarinetto" translatable="false">Mandarinetto</string>
+    <string name="drinkId067_Manhattan" translatable="false">Manhattan</string>
+    <string name="drinkId068_Maraschino" translatable="false">Maraschino</string>
+    <string name="drinkId069_Margarita" translatable="false">Margarita</string>
+    <string name="drinkId070_Marsala" translatable="false">Marsala</string>
+    <string name="drinkId071_Martini" translatable="false">Martini</string>
+    <string name="drinkId072_Disaronno" translatable="false">Disaronno</string>
+    <string name="drinkId073_Appletini" translatable="false">Appletini</string>
+    <string name="drinkId074_Midori" translatable="false">Midori</string>
+    <string name="drinkId075_Mimosa" translatable="false">Mimosa</string>
+    <string name="drinkId076_Mojito" translatable="false">Mojito</string>
+    <string name="drinkId077_Moscato" translatable="false">Moscato</string>
+    <string name="drinkId078_MoscowMule" translatable="false">Moscow Mule</string>
+    <string name="drinkId079_Negroni" translatable="false">Negroni</string>
+    <string name="drinkId080_NegroniSbagliato" translatable="false">Negroni Sbagliato</string>
+    <string name="drinkId081_Negroski" translatable="false">Negroski</string>
+    <string name="drinkId082_OldFashioned" translatable="false">Old Fashioned</string>
+
+    <string name="drinkId083_Passoa" translatable="false">Passoa</string>
+    <string name="drinkId084_Pimms" translatable="false">Pimm\'s</string>
+    <string name="drinkId085_PinaColada" translatable="false">Pina Colada</string>
+    <string name="drinkId086_PinkLady" translatable="false">Pink Lady</string>
+    <string name="drinkId087_Pisco" translatable="false">Pisco</string>
+    <string name="drinkId088_PiscoSour" translatable="false">Pisco Sour</string>
+    <string name="drinkId089_Porto" translatable="false">Porto</string>
+    <string name="drinkId090_RumCooler" translatable="false">Rum Cooler</string>
+    <string name="drinkId091_Rossini" translatable="false">Rossini</string>
+    <string name="drinkId092_Rum" translatable="false">Rum</string>
+    <string name="drinkId093_RumAndPear">Rum &amp; Pear</string>
+    <string name="drinkId094_Sake" translatable="false">Sakè</string>
+    <string name="drinkId095_Sambuca" translatable="false">Sambuca</string>
+    <string name="drinkId096_Scotch">Scotch Whiskey</string>
+    <string name="drinkId097_SeaBreeze" translatable="false">Sea Breeze</string>
+    <string name="drinkId098_SexOnTheBeach" translatable="false">Sex on the Beach</string>
+    <string name="drinkId099_Sherry" translatable="false">Sherry</string>
+    <string name="drinkId100_SherryBrandy" translatable="false">Sherry Brandy</string>
+    <string name="drinkId101_Sidro">Cider</string>
+    <string name="drinkId102_SingaporeSling" translatable="false">Singapore Sling</string>
+    <string name="drinkId103_Screwdriver" translatable="false">Screwdriver</string>
+    <string name="drinkId104_Slivowiz" translatable="false">Slivovitz</string>
+    <string name="drinkId105_Spritz" translatable="false">Spritz</string>
+    <string name="drinkId106_Spumante">Sparkling Wine</string>
+    <string name="drinkId107_StoneSour" translatable="false">Stone Sour</string>
+    <string name="drinkId108_StrawberryDaiquiri" translatable="false">Strawberry Daiquiri</string>
+    <string name="drinkId109_Strega">Strega Liqueur</string>
+    <string name="drinkId110_Tequila" translatable="false">Tequila</string>
+    <string name="drinkId111_TequilaSunrise" translatable="false">Tequila Sunrise</string>
+    <string name="drinkId112_VecchiaRomagna" translatable="false">Vecchia Romagna</string>
+    <string name="drinkId113_Vermouth" translatable="false">Vermouth</string>
+    <string name="drinkId114_VinBrule" translatable="false">Vin Brule</string>
+    <string name="drinkId115_WhiteWine">White Wine</string>
+    <string name="drinkId116_RedWine">Red Wine</string>
+    <string name="drinkId117_Vodka" translatable="false">Vodka</string>
+    <string name="drinkId118_VodkaAromatizzata">Flavored Vodka</string>
+    <string name="drinkId119_VodkaLemon" translatable="false">Vodka Lemon</string>
+    <string name="drinkId120_Whisky">Whiskey</string>
+    <string name="drinkId121_WhiteRussian" translatable="false">White Russian</string>
+    <string name="drinkId122_Myrtle">Myrtle</string>
+    <string name="drinkId123_LongIsland" translatable="false">Long Island</string>
+    <string name="drinkId124_SanSimone">Amaro San Simone</string>
+    <string name="drinkId125_Hugo" translatable="false">Hugo</string>
+    <string name="drinkId126_VinSanto" translatable="false">Vin Santo</string>
+    <string name="drinkId127_Jagerbomb" translatable="false">Jagerbomb</string>
+
+
+    <!-- Glasses measures -->
+    <string name="glassId01_Shot" translatable="false">Shot (4 cl)</string>
+    <string name="glassId02_AfterDinner" translatable="false">After-dinner (7 cl)</string>
+    <string name="glassId03_DrinkMedium">Medium drink (12 cl)</string>
+    <string name="glassId04_DrinkLong">Long drink (18 cl)</string>
+    <string name="glassId05_WineGlass">Glass of Wine (15 cl)</string>
+    <string name="glassId06_Flute" translatable="false">Flute (22 cl)</string>
+    <string name="glassId07_BeerSmall">Small beer (20 cl)</string>
+    <string name="glassId08_BeerMedium">Medium beer (40 cl)</string>
+    <string name="glassId09_Liter_0_33">Bottle 33 cl</string>
+    <string name="glassId10_Liter_0_66">Bottle 66 cl</string>
+    <string name="glassId11_PintBritish">British pint (56,8 cl)</string>
+    <string name="glassId12_PintAmerican">American pint (47,3 cl)</string>
+    <string name="glassId13_Liter_0_50">Glass &#189; liters</string>
+    <string name="glassId14_Liter">Glass 1 liter</string>
+
+    <!-- TaxiFragment stuff -->
+    <string name="uber_tvHint_pickUp">Pick-up location</string>
+    <string name="uber_tvHint_destination">Destination</string>
+
+    <!-- GetHomeSafeFragment stuff -->
+    <string name="getHome_toast_notReady">Feature still in development</string>
+    <string name="or_enter_with">or enter with</string>
+    <string name="you_te">you</string>
+    <string name="you_failed">You Failed!</string>
+    <string name="continue_reflex">CONTINUE</string>
+    <string name="be_ready_reflex">BE READY!</string>
+    <string name="notif_now_maiusc">Now</string>
+    <string name="notif_now">now</string>
+    <string name="menu_remove_all_drinks">Remove all Drinks</string>
+    <string name="menu_remove_selected_drinks">Remove selected Drinks</string>
+    <string name="full_dialog_delete">%d Drinks deleted</string>
+    <string name="add_custom_cocktail">Add your custom Drink</string>
+    <string name="histrory_intro">History calculated at</string>
+    <string name="perm_warning_coarseLocation">Uber services require your current position. Please enable this setting in Settings.\n\nSelect Permissions -> Enable Permission</string>
+
+</resources>
+
+

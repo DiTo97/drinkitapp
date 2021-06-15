@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="blueLight">#05C3F9</color>
+    <color name="blueMaterial">#0982E3</color>
+    <color name="whiteClean">#ffffff</color>
+    <color name="whiteTransparent">#CCCCCC</color>
+
+    <color name="orangeClean">#f49b22</color>
+    <color name="chiantiClean">#5d222a</color>
+    <color name="chiantiLight">#703333</color>
+
+    <color name="blueGrey500">#607D8B</color>
+    <color name="blueGrey900">#263238</color>
+    <color name="black">#000000</color>
+
+    <color name="tab_verticalStrip">#DF013A</color>
+    <color name="goldChianti">#FFEB3B</color>
+    <color name="heartGold">#d19c29</color>
+
+    <color name="okGreen">#00b200</color>
+    <color name="noRed">#FF0000</color>
+    <color name="grayClean">#A4A4A4</color>
+
+
+</resources>

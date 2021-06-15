@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/uberMenuCopy"
+        android:title="@string/copyAccessToken"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/uberClearMenu"
+        android:title="@string/clearAccessToken"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>

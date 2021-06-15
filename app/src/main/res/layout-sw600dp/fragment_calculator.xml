@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chiantiClean"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/glasscontainer"
+        android:layout_width="337dp"
+        android:layout_height="452dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/transition_fill" />
+
+    <TextView
+        android:id="@+id/resultview"
+        android:layout_width="171dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:text="4.00+"
+        android:textAlignment="center"
+        android:textColor="@color/whiteClean"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/glasscontainer" />
+
+    <TextView
+        android:id="@+id/warningview"
+        android:layout_width="496dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/text_ellipse_chianti"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:text="Calcolo . . ."
+        android:textAlignment="center"
+        android:textColor="@color/whiteClean"
+        android:textSize="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider20" />
+
+    <View
+        android:id="@+id/divider20"
+        android:layout_width="240dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/whiteClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultview" />
+
+    <TextView
+        android:id="@+id/whenSober"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/whiteClean"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/whenDrive"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/whenDrive"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/whiteClean"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/whenSober"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="You'll be sober in"
+
+        android:textAlignment="center"
+        android:textColor="@color/heartGold"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/warningview" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="You could drive in"
+        android:textAlignment="center"
+        android:textColor="@color/heartGold"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/warningview" />
+</android.support.constraint.ConstraintLayout>

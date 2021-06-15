@@ -1,0 +1,61 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="525dp"
+            android:height="525dp"
+            android:viewportWidth="525"
+            android:viewportHeight="525">
+            <group android:name="glass">
+                <path
+                    android:name="glassBorder"
+                    android:pathData="M 62.5 25 L 177.5 500 L 347.5 500 L 467.5 25 L 62.5 25"
+                    android:fillColor="#000"
+                    android:fillAlpha="0.67"
+                    android:strokeColor="#000"
+                    android:strokeWidth="10"
+                    android:strokeLineJoin="round"/>
+                <path
+                    android:name="glassBody"
+                    android:pathData="M 177.5 497.5 L 345 497.5"
+                    android:strokeColor="#000"
+                    android:strokeWidth="2.5"/>
+                <path
+                    android:name="glassLight"
+                    android:pathData="M 112.5 75 L 141.25 193.75"
+                    android:strokeColor="#000"
+                    android:strokeWidth="7.5"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="glassBody">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:duration="1750"
+                    android:valueFrom="M 180 497.5 L 180 497.5 L 345 497.5 L 345 497.5 L 345 497.5"
+                    android:valueTo="M 180 497.5 L 65 27.5 L 465 27.5 L 345 497.5 L 180 497.5"
+                    android:valueType="pathType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="fillColor"
+                    android:duration="500"
+                    android:valueFrom="#FFF"
+                    android:valueTo="#FFF"
+                    android:valueType="colorType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="fillColor"
+                    android:startOffset="500"
+                    android:duration="1250"
+                    android:valueFrom="#FFF"
+                    android:valueTo="#FFF"
+                    android:valueType="colorType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        app:showAsAction="always"
+
+        android:icon="@drawable/ic_menu"
+        android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/actionInfo"
+                android:title="@string/item_info_title"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_information"
+                />
+            
+            <item
+                android:id="@+id/actionSettings"
+                android:title="@string/item_setting_title"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_settings"
+                />
+
+        </menu>
+    </item>
+
+</menu>

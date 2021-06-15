@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/drinknamecard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.25"
+        android:fontFamily="@font/bold"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Drink name"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/drinkglasscard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.25"
+        android:fontFamily="@font/bold"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Quantity"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:id="@+id/removecard"
+            android:layout_width="23dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="Remove"
+            android:cropToPadding="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/com_facebook_tooltip_black_xout" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

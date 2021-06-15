@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/slideImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/ic_eat" />
+
+    <TextView
+        android:id="@+id/slideHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="cursive"
+        android:fontFeatureSettings="smcp"
+        android:text="@string/text_slideHeading"
+        android:textAllCaps="false"
+        android:textColor="@color/place_autocomplete_prediction_primary_text"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/slideDescription"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/slideHeading"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:lineSpacingExtra="7.5sp"
+        android:fontFamily="@font/regular"
+        android:paddingStart="16dp"
+        android:paddingTop="50dp"
+        android:paddingEnd="16dp"
+        android:text="@string/text_slideDesc"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/place_autocomplete_prediction_primary_text"
+        android:textSize="27sp" />
+</RelativeLayout>

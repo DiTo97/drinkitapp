@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fragments.SettingListFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/text_title_Settings"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notificationPath"
+        android:layout_width="240dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_bell"
+        android:fontFamily="@font/regular"
+        android:text="@string/text_title_notifications"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider9" />
+
+
+    <TextView
+        android:id="@+id/uberSettingPath"
+        android:layout_width="240dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_taxi_driver"
+        android:fontFamily="@font/regular"
+        android:text="@string/text_title_uberSettings"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider10" />
+
+    <TextView
+        android:id="@+id/newPasswordPath"
+        android:layout_width="240dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_password"
+        android:fontFamily="@font/regular"
+        android:text="@string/text_title_newPasswordSetting"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider11" />
+
+    <TextView
+        android:id="@+id/logoutPath"
+        android:layout_width="240dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_door"
+        android:fontFamily="@font/regular"
+        android:text="@string/text_title_logOutSetting"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider12" />
+
+    <TextView
+        android:id="@+id/loginPath"
+        android:layout_width="240dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_door"
+        android:fontFamily="@font/regular"
+        android:text="Registrati"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider12" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="75dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notificationPath" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uberSettingPath" />
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPasswordPath" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoutPath"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

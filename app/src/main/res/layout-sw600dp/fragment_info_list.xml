@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".fragments.InfoListFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="562dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/TextView_title_infoPage"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/riskPath"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_policeman_chianti"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="@string/textView_info_risks"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider9" />
+
+
+    <TextView
+        android:id="@+id/creditPath"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_business"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="@string/text_title_creditSetting"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="450dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="450dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riskPath" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="450dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/creditPath" />
+
+    <View
+        android:id="@+id/divider21"
+        android:layout_width="450dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/chiantiClean"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutorial"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tutorial"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_agenda"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="@string/text_title_tutorial"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider11" />
+
+
+    <TextView
+        android:id="@+id/tv_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tv_privacy_read"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

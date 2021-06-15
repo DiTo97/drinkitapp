@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drinklayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.DrinkFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <View
+                android:id="@+id/divider17"
+                android:layout_width="450dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/chiantiClean"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/minutes" />
+
+            <AutoCompleteTextView
+                android:id="@+id/cocktails_textview"
+                android:layout_width="395dp"
+                android:layout_height="54dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_ellipse_chianti"
+                android:ems="10"
+                android:fontFamily="@font/bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="549dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/welcome_cocktail"
+                android:textAlignment="center"
+                android:textColor="@color/chiantiClean"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/add_cocktail"
+                android:layout_width="181dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_multi_state"
+                android:fontFamily="@font/bold"
+                android:text="@string/add_cocktail"
+                android:textColor="@color/whiteClean"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider19" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/tv_create_cocktail"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_cocktail" />
+
+            <TextView
+                android:id="@+id/createDrink"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="@string/clickable_insert_cocktail"
+                android:textAlignment="center"
+                android:textColor="@color/heartGold"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <Spinner
+                android:id="@+id/spinnerQuantity"
+                android:layout_width="64dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toEndOf="@+id/cocktails_textview"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <RadioGroup
+                android:id="@+id/ossatura"
+                android:layout_width="440dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+                <RadioButton
+                    android:id="@+id/empty"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="@string/empty_stomach"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/normal"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="@string/normal_stomach"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/too_much"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/filled_stomach"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spinnerGlass"
+                android:layout_width="291dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cocktails_textview" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/stomach_question"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider17" />
+
+            <EditText
+                android:id="@+id/minutes"
+                android:layout_width="121dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/text_ellipse_chianti"
+                android:ems="10"
+                android:hint="0"
+                android:inputType="number"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="527dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/regular"
+                android:text="@string/minutes_question"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider16" />
+
+            <View
+                android:id="@+id/divider16"
+                android:layout_width="450dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/chiantiClean"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/createDrink" />
+
+            <View
+                android:id="@+id/divider18"
+                android:layout_width="450dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/chiantiClean"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ossatura" />
+
+            <View
+                android:id="@+id/divider19"
+                android:layout_width="294dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/chiantiClean"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerGlass" />
+
+            <ListView
+                android:id="@+id/listview_drinks"
+                android:layout_width="510dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/divider18" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="4dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/com_facebook_button_like_icon_selected"
+            app:backgroundTint="@color/chiantiLight"
+            app:fabSize="normal" />
+    </LinearLayout>
+</RelativeLayout>
