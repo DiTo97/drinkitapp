@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chiantiClean"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.RegistrationFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="510dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/registrationName"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@drawable/text_ellipse_tablet"
+            android:drawableStart="@drawable/ic_avatar"
+            android:ems="10"
+            android:paddingRight="40dp"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_username"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="510dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/registrationEmail"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@drawable/text_ellipse_tablet"
+            android:drawableStart="@drawable/ic_mail"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_eMail"
+            android:paddingRight="40dp"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="510dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="36dp"
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintBottom_toTopOf="@+id/signUpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/registrationPassword"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:background="@drawable/text_ellipse_tablet"
+            android:drawableStart="@drawable/ic_password"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_password"
+            android:inputType="textPassword"
+            android:paddingRight="40dp"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.466" />
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/button_multi_state_white"
+        android:fontFamily="@font/bold"
+        android:text="@string/text_regitstrationBtn"
+        android:textAllCaps="false"
+        android:textColor="@color/chiantiClean"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="381dp" />
+
+</android.support.constraint.ConstraintLayout>

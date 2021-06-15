@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="tab_indicatorHeight">5dp</dimen>
+
+    <dimen name="tv_fuzzArea">48dp</dimen>
+    <dimen name="tv_textMargin">16dp</dimen>
+
+    <dimen name="gradient_btnShape_width">1.33dp</dimen>
+
+</resources>

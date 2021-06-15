@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chiantiClean"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.LoginFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bold"
+        android:text="Facebook"
+        android:elevation="8dp"
+        android:textColor="@color/whiteClean"
+        app:layout_constraintBottom_toTopOf="@+id/signInFB"
+        app:layout_constraintEnd_toEndOf="@+id/signInFB"
+        app:layout_constraintStart_toStartOf="@+id/signInFB" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayoutMail"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/loginEmail"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:elevation="8dp"
+            android:background="@drawable/text_ellipse"
+            android:drawableStart="@drawable/ic_mail"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_eMail"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayoutPassword"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutMail">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/loginPassword"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:background="@drawable/text_ellipse"
+            android:drawableStart="@drawable/ic_password"
+            android:ems="10"
+            android:elevation="8dp"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_multi_state_white"
+        android:fontFamily="@font/bold"
+        android:text="@string/button_loginBtn"
+        android:elevation="8dp"
+        android:textAllCaps="false"
+        android:textColor="@color/chiantiClean"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword" />
+
+
+    <com.shaishavgandhi.loginbuttons.GooglePlusButton
+        android:id="@+id/signInGoogle"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="48dp"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/signInFB"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fakeSignInFB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="384dp"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <com.shaishavgandhi.loginbuttons.FacebookButton
+        android:id="@+id/signInFB"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="48dp"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/link_signInAsHost2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/signInGoogle"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <ImageView
+        android:id="@+id/link_signInAsHost2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="48dp"
+        android:background="#edb139"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/signInFB"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bold"
+        android:text="Google"
+        android:elevation="8dp"
+        android:textColor="@color/whiteClean"
+        app:layout_constraintBottom_toTopOf="@+id/signInGoogle"
+        app:layout_constraintEnd_toEndOf="@+id/signInGoogle"
+        app:layout_constraintStart_toStartOf="@+id/signInGoogle" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/tv_guest_new"
+        android:elevation="8dp"
+        android:textColor="@color/whiteClean"
+        app:layout_constraintBottom_toTopOf="@+id/link_signInAsHost2"
+        app:layout_constraintEnd_toEndOf="@+id/link_signInAsHost2"
+        app:layout_constraintStart_toStartOf="@+id/link_signInAsHost2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/guest"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/link_signInAsHost2"
+        app:layout_constraintEnd_toEndOf="@+id/link_signInAsHost2"
+        app:layout_constraintStart_toStartOf="@+id/link_signInAsHost2"
+        app:layout_constraintTop_toTopOf="@+id/link_signInAsHost2" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/tv_other_login"
+        android:textColor="@color/whiteClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

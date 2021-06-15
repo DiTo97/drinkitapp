@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.FallRegistrationFragment"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/registrationName"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:background="@drawable/text_ellipse_chianti"
+            android:drawableStart="@drawable/ic_avatar"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_username"
+            android:inputType="textEmailAddress"
+            android:paddingRight="40dp"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/registrationEmail"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:background="@drawable/text_ellipse_chianti"
+            android:drawableStart="@drawable/ic_mail"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_eMail"
+            android:paddingRight="40dp"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="395dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/chiantiClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+
+        <com.gildStudios.DiTo.androidApp.customs.CustomEditText
+            android:id="@+id/registrationPassword"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:background="@drawable/text_ellipse_chianti"
+            android:drawableStart="@drawable/ic_password"
+            android:ems="10"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:hint="@string/edit_password"
+           android:paddingRight="40dp"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/chiantiClean"
+            android:textColorHint="#848484"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.457" />
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_multi_state"
+        android:fontFamily="@font/bold"
+        android:text="@string/text_regitstrationBtn"
+        android:textAllCaps="false"
+        android:textColor="@color/whiteClean"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="@string/text_socialButton"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpBtn" />
+
+
+    <com.shaishavgandhi.loginbuttons.GooglePlusButton
+        android:id="@+id/signInGoogle"
+        android:layout_width="135dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/signInFB"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fakeSignInFB"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="384dp"
+        tools:layout_editor_absoluteY="684dp"
+        tools:ignore="MissingConstraints"/>
+
+    <com.shaishavgandhi.loginbuttons.FacebookButton
+        android:id="@+id/signInFB"
+        android:layout_width="135dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/signInGoogle"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Create a Profile"
+        android:textAlignment="center"
+        android:textColor="@color/chiantiClean"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

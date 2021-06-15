@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alertView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/create_tax_et"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="20.0"
+        android:backgroundTint="@color/heartGold"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/create_name_et" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/create_tax"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_name_et" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:text="@string/create_drink_tv"
+        android:textColor="@color/chiantiClean"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/create_name"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/create_name_et"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="@font/regular"
+        android:hint="Name"
+        android:backgroundTint="@color/heartGold"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/create_tax_et"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/create_tv2"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/create_tax_et" />
+
+    <RadioGroup
+        android:id="@+id/drink_strenght"
+        android:layout_width="310dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32">
+
+        <RadioButton
+            android:id="@+id/low"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/regular"
+            android:text="@string/low" />
+
+        <RadioButton
+            android:id="@+id/strong"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/regular"
+            android:text="@string/strong" />
+
+        <RadioButton
+            android:id="@+id/very_strong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-30dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/regular"
+            android:text="@string/very_strong" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/create_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/regular"
+        android:text="@string/create_cancel"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/create_confirm"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drink_strenght" />
+
+    <TextView
+        android:id="@+id/create_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/create_confirm"
+        android:textColor="@color/heartGold"
+        android:textSize="18sp"
+        android:fontFeatureSettings="smcp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/create_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/drink_strenght" />
+</android.support.constraint.ConstraintLayout>

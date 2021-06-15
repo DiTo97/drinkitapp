@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/whiteClean"
+    tools:context=".activities.SplashActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@id/dotsLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+    android:id="@+id/dotsLayout"
+    android:layout_height="53dp"
+    android:layout_width="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_toEndOf="@+id/backButton"
+    android:layout_toStartOf="@+id/nextButton">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dotsLayout"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="Sans-serif"
+        android:fontFeatureSettings="smcp"
+        android:text="@string/btn_prevPage"
+        android:textAllCaps="false"
+        android:textColor="@color/chiantiClean"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dotsLayout"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="Sans-serif"
+        android:fontFeatureSettings="smcp"
+        android:text="@string/btn_nextPage"
+        android:textAllCaps="false"
+        android:textColor="@color/chiantiClean"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

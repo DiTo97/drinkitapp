@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/chiantiClean"
+        tools:context=".activities.AccessActivity">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="429dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/drinkitapp_logo" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="597dp"
+            android:layout_height="673dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@color/whiteClean"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textAlignment="center"
+        app:font="@font/regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pager"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/orangeClean"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/heartGold"
+        app:tabTextAppearance="@style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/whiteClean" />
+
+
+
+    </android.support.constraint.ConstraintLayout>

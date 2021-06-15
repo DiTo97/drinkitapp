@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tv_fuzzArea">64dp</dimen>
+
+    <dimen name="gradient_btnShape_width">1.67dp</dimen>
+
+</resources>

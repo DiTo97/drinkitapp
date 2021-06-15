@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DrinkItApp</string>
+
+    <string name="button_loginBtn">Accedi</string>
+    <string name="button_loginGian">Accedi</string>
+    <string name="button_secondBtnGian">Contattaci!</string>
+    <string name="button_signUp">Registrati</string>
+
+
+    <string name="edit_eMail">Email</string>
+    <string name="edit_password">Password</string>
+    <string name="edit_username">Nome</string>
+
+    <string name="notify_defaultChannel">dummyChannel_01</string>
+    <string name="notify_defaultTitle">dummyTitle_01</string>
+
+    <string name="tab_login">Accedi</string>
+    <string name="tab_registration">Registrati</string>
+
+    <string name="text_dummyGian">Dito è calda a 5km da te!</string>
+    <string name="text_dummyHello">Bentornato amico mio!</string>
+    <string name="text_dummyHello2">Ancora tu amico mio!</string>
+    <string name="text_homeScreen">Questa è la Home</string>
+    <string name="text_splashScreen">DrinkApp</string>
+
+    <string name="view_eMail">Email</string>
+    <string name="view_eMailGian">Indirizzo E-mail</string>
+    <string name="view_forgotPwdGian">Password Dimenticata</string>
+    <string name="view_password">Password</string>
+    <string name="view_passwordGian">Password</string>
+    <string name="view_signAsHost">Preferisci entrare come Ospite?</string>
+    <string name="view_signInTitle">Accedi</string>
+    <string name="view_signUpTitle">Registrati</string>
+    <string name="view_username">Username</string>
+    <string name="clickHere">Continua</string>
+    <string name="text_regitstrationBtn">Registrati</string>
+
+    <string name="text_welcomeMsg">Prima di iniziare, perché non ci parli un po\' di %s\nQuesto ci aiuterà a fornirti un risultato il più preciso possibile per l\'Etilometro</string>
+    <string name="text_welcomeMsgHome">Prima di iniziare, perché non ci parli un po\' di te?\nQuesto ci aiuterà a fornirti un risultato il più preciso possibile per l\'Etilometro</string>
+    <string name="data_userAge">Quanti anni hai?</string>
+    <string name="data_userHeight">Altezza (cm)</string>
+    <string name="text_welcomeMsg2">Benvenuto!</string>
+    <string name="data_userGender">Di che sesso sei?</string>
+    <string name="data_male">Uomo </string>
+    <string name="data_female">Donna</string>
+    <string name="data_bonesLight">Piccola</string>
+    <string name="data_bonesMedium">Media</string>
+    <string name="data_bonesHeavy">Grossa</string>
+    <string name="button_saveData">Salva</string>
+
+    <string name="text_whichBones">Che corporatura hai?</string>
+
+    <string name="text_signedInFmt">Accesso come : %s</string>
+    <string name="text_signedOutGoogle">Uscito</string>
+
+    <string name="text_signOutGoogle">Esci</string>
+    <string name="text_disconnectGoogle">Disconnetti</string>
+
+    <string name="intent_deepLink">Deep-DrinkApp</string>
+
+    <string name="fb_appId">253625351962241</string>
+    <!-- <string name="fb_loginProtocolScheme">fb253625351962241</string> -->
+
+    <string name="text_socialButton">o Accedi con:</string>
+
+    <string name="text_blankFragment">Hello new Fragment!</string>
+    <string name="text_displaySettings">Impostazioni</string>
+
+    <string name="ModificaProfiloTitle">Modifica Profilo</string>
+    <string name="NewMailText">Nuova Email</string>
+    <string name="text_myNewCredentials">Cambia la Password</string>
+    <string name="text_old_password">Vecchia Password</string>
+    <string name="text_confirm_password">Conferma Password</string>
+    <string name="text_insert_new_password">Nuova Password</string>
+
+
+    <!-- Settings for General-->
+
+    <string name="pref_headerGeneral">General</string>
+
+    <string name="pref_socialRecommendations">Enable social recommendations</string>
+    <string name="pref_descrSocialRecommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Sempre</item>
+        <item>Quando possibile</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>3 orr</item>
+        <item>6 ore</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_header_notifications">Notifiche</string>
+
+    <string name="pref_title_new_message_notifications">Nuova Notifica</string>
+
+    <string name="pref_title_ringtone">Suona</string>
+    <string name="pref_ringtone_silent">Silenzioso</string>
+
+    <string name="pref_title_vibrate">Vibrazione</string>
+    <string name="uber_check">Abilita i servizi di Uber©</string>
+    <string name="call_button">Chiama un Uber©</string>
+    <string name="home_main_text">Benvenuto in DrinkItApp!\n Bevi responsabilmente</string>
+    <string name="customUberTxt">Bottone di Uber©</string>
+
+    <string name="copyAccessToken">Copy Access Token to Clipboard</string>
+    <string name="clearAccessToken">Clear Access Token</string>
+    <string name="userCancelsMsg">User cancels Login</string>
+    <string name="loginErrorMsg">Errore durante l\' accesso: %s</string>
+    <string name="authCodeMsg">Autorizzazione ricevuta:\\n %s</string>
+    <string name="greetingUser">Ciao %s!</string>
+
+    <string name="text_notification_title">Notifiche</string>
+    <string name="text_notification_request">Vuoi abilitare le notifiche?</string>
+    <string name="checkBox_notification">Abilita !</string>
+    <string name="text_uberSettingTitle">Impostazioni di Uber</string>
+    <string name="text_uberSettingRequest">Vuoi abilitare Uber© su DrinkItApp</string>
+    <string name="checkBoxUber">Disabilita!</string>
+
+
+    <string name="CheckBoxUber">Abilita!</string>
+    <string name="EditText_myNewHome">Via</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="welcome_cocktail">Cosa hai bevuto?</string>
+    <string name="add_cocktail">Aggiungi alla Lista</string>
+    <string name="remove_cocktail">x</string>
+
+    <string name="tv_create_cocktail">Non trovi il tuo Drink?</string>
+    <string name="clickable_insert_cocktail">Crealo!</string>
+    <string name="clickable_remove_cocktail">Rimuovi</string>
+
+    <string name="recap_drink">Drink selezionati:</string>
+    <string name="drinklist"></string>
+
+    <string name="text_title_Settings">Impostazioni</string>
+    <string name="text_title_notifications">Notifiche</string>
+    <string name="text_title_uberSettings">Uber©</string>
+    <string name="text_title_creditSetting">Chi siamo</string>
+    <string name="text_title_tutorial">Tutorial</string>
+    <string name="text_title_newPasswordSetting">Cambia la Password</string>
+    <string name="text_reflex_test_title">Test dei Riflessi</string>
+    <string name="text_description_reflex">Il minigioco partirà una volta premuto Continua; cerca di fermare la macchina prima che attraversi le strisce con lo stesso bottone. Fallire il test significherebbe che i tuoi riflessi sono stati rallentati dall\'alcool </string>
+    <string name="uber_welcome_message">Chiama un Uber!</string>
+    <string name="location_permission_request">Usa la tua posizione GPS corrente</string>
+    <string name="textview_position">Inserisci la tua Posizione:</string>
+    <string name="app_title_bar">DrinkItApp</string>
+    <string name="title_reflexTest">Test dei Riflessi</string>
+    <string name="switch_button">Notifiche</string>
+    <string name="item_setting_title">Impostazioni</string>
+    <string name="text_title_logOutSetting">Esci</string>
+    <string name="text_reflexTest_title">Test dei Riflessi</string>
+    <string name="button_testButton">Bottone</string>
+    <string name="text_title_registerBtnSetting">Accedi</string>
+    <string name="textView_aboutUs_title">DrinkApp</string>
+    <string name="editText_creditTitle">Cos\'è DrinkItApp?</string>
+    <string name="textView_creditDescription">In Europa ogni anno muoiono più di 10000 persone a causa di incidenti dovuti all\' alcool.\nDrinkItApp ti permette di stimare il tuo Tasso Alcolemico secondo le tue caratteristiche fisiche e cosa hai bevuto. \n. DrinkItApp e il suo staff non incoraggia o promuove in alcun modo l\'abuso di alcool e ricorda di bere responsabilmente e non guidare dopo aver bevuto</string>
+    <string name="item_info_title">Informazioni</string>
+    <string name="textView_info_risks">Cosa rischi?</string>
+    <string name="TextView_title_infoPage">Informazioni</string>
+    <string name="btn_calculate">Calcola</string>
+    <string name="normal_stomach">Poco</string>
+    <string name="stomach_question">Quanto hai mangiato?</string>
+    <string name="minutes_question">Quanto tempo fa hai bevuto l\'ultimo Drink?</string>
+    <string name="new_minutes_question">Quanto tempo fa?</string>
+
+    <string name="default_webClientId">229809367707-cflf0dofcgutp8529d1tl2ajalt0jen9.apps.googleusercontent.com</string>
+    <string name="textView_retryText">Sei stato troppo lento, ci hai messo\n%.2f secondi</string>
+    <string name="textview_risks">L’alcol provoca un\'iniziale euforia e perdita dei freni inibitori, ma a quantità progressivamente crescenti corrispondono effetti come riduzione della visione laterale (visione a tunnel), perdita di equilibrio, difficoltà motorie, nausea e confusione.\nQuantità eccessive di alcol possono portare fino al coma e alla morte.</string>
+    <string name="create_drink_tv">Crea il tuo Drink!</string>
+    <string name="create_name">Nome del Drink</string>
+    <string name="create_tax">% alcolica</string>
+    <string name="create_tv2">Se non conosci la % alcolica, scegli tra:</string>
+    <string name="low">Leggero</string>
+    <string name="strong">Forte</string>
+    <string name="very_strong">Molto Forte</string>
+    <string name="create_cancel">ANNULLA</string>
+    <string name="create_confirm">CONFERMA</string>
+
+    <string name="item_DrinkHistory">DrinkHistory</string>
+
+    <string name="notWarning">Sei sotto il limite consentito, ma guida con prudenza.  </string>
+    <string name="warning0_5">Sei sopra il limite. Rischi una multa tra i 500 e 2000 euro e la sospensione della patente da 3 a 6 mesi.</string>
+    <string name="warning0_8">Sei molto sopra il limite. Rischi una multa tra gli 800 e 3200 euro, l\' arresto o la sospensione della patete fino ad un anno.</string>
+    <string name="warning1_5">Sei pericolosamente sopra il limite. Rischi una multra tra i 1500 e i 6000 euro, l\'arresto fino ad un anno, la sospensione della patente da 1 a 2 anni e il sequestro o il fermo del veicolo.</string>
+    <string name="item_title_myDrinks">MyDrinks</string>
+
+
+    <string name="btn_nextPage">Successivo</string>
+    <string name="btn_prevPage">Indietro</string>
+    <string name="btn_finishPage">Fine</string>
+    <string name="text_slideHeading">Heading</string>
+    <string name="text_slideDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor error, fuga inventore officia quod repellendus.</string>
+
+
+    <string name="disclamer">I risultati mostrati sono delle stime.\nDrinkItApp e il suo staff non incoraggia o promuove in alcun modo l\'abuso di alcool e ricorda di bere responsabilmente e non guidare dopo aver bevuto.</string>
+
+    <string name="error_inputPwd">La Password deve essere lunga almeno 6 caratteri e deve contenere almeno un numero ed una lettera maiuscola (es. Taylor1)</string>
+    <string name="error_inputName">Nome non valido (es. Mario Rossi)</string>
+    <string name="error_inputEmail">Email non valida</string>
+    <string name="notif_sober">dovresti essere sobrio</string>
+    <string name="notif_drive">dovresti essere in grado di guidare</string>
+
+    <string name="calc_sober">Sobrio tra</string>
+    <string name="calc_drive">Potrai guidare tra</string>
+
+    <string name="uber_setting2">Inserisci la tua Destinazione:</string>
+    <string name="address_current">Indirizzo di partenza</string>
+    <string name="address_destination">Indirizzo di arrivo</string>
+    <string name="find_ride">Trova una Corsa</string>
+    <string name="taxi_fragment">Hai bevuto un po\' troppo e vuoi andare a casa? Nessun problema! Indicaci dove vuoi andare e un Uber© ti ci porterà.</string>
+
+
+    <string name="offline_unusable">Non disponibile in modalità Offline</string>
+    <string name="host_unusable">Non disponibile in modalità Ospite</string>
+    <string name="logout_warn">Vuoi davvero uscire?</string>
+    <string name="missing_fields">Completa i campi mancanti</string>
+    <string name="enable_gps">Connessione falita.\nIl GPS è abilitato?</string>
+    <string name="positon_error">Impossibile trovare la posizione corrente</string>
+
+    <string name="too_short">Non sei un po\' troppo basso?</string>
+    <string name="too_old">Non dovrebbe bere alla sua età</string>
+    <string name="too_tall">Sei davvero così alto/a?</string>
+    <string name="too_young">Devi avere almeno 14 anni per usare quest\' App</string>
+
+    <string name="tutorial_enter">Registati con la tua Email ,account di Google,account di Facebook o entra come Ospite per un utilizzo più rapido.</string>
+    <string name="tutorial_test">Calcola il tuo tasso alcolemico in base a cosa hai bevuto, cosa hai mangiato e alle tue caratteristiche fisiche, poi scopri cosa rischi con il tuo risultato. Ricordiamo che DrinkItApp effettua una stima e non incoraggia in alcun modo l\'abuso di alcool. </string>
+    <string name="tutorial_utilities">Personalizza i tuoi Drinks, testa i riflessi con il nostro gioco, attiva le notifiche per sapere quando potrai guidare o chiama un Uber© che ti porti a casa o altri servizi d\'emergenza.</string>
+    <string name="tutorial_offline">Serata fuori senza Internet? Nessun problema, abbiamo pensato anche a questo.</string>
+
+    <string name="history_message">Non c\'è nessuna storia ancora… \n\nQuesta sezione salverà tutti i tuoi Test Alcolici così da poter rivedere cosa hai bevuto quella sera\nCalcola qualcosa e trova tutte le tue \'Drink-nights\' conservate qui!</string>
+    <string name="mydrinks_message">Non riesci a trovare il tuo Drink preferito? Premi il bottone e aggiungilo alla lista dei tuoi Drink personali.</string>
+    <string name="tv_cheerUser">Benvenuto, caro/a %s!</string>
+
+    <string name="liter1_4">1/4 litro</string>
+    <string name="liter1_2">1/2 litro</string>
+    <string name="liter1">1 litro</string>
+    <string name="test_won">Hai Vinto</string>
+    <string name="test_play">GIOCA ANCORA</string>
+    <string name="test_took">Congratulazioni, ci hai messo\n</string>
+    <string name="test_back">INDIETRO</string>
+    <string name="test_stop">STOP!</string>
+    <string name="test_again">GIOCA ANCORA</string>
+
+
+    <string name="calc_h">Più di 24 ore</string>
+    <string name="calc_now">Ora</string>
+
+    <string name="drink_dialog">Calcolo...</string>
+    <string name="drink_error">Si è verificato un errore</string>
+    <string name="drink_option">Selezione almeno un\' opzione</string>
+    <string name="drink_short">Usa un nome più corto</string>
+    <string name="drink_fields">Assicurati che tutti i campi siano giusti</string>
+    <string name="drink_name">Usa un nome diverso</string>
+    <string name="drink_notfound">Il drink selezionato non esiste, vuoi aggiungerlo?</string>
+
+    <string name="history_fail">Nessuna History caricata</string>
+
+    <string name="excl_log">Solo per utenti Registrati</string>
+
+    <string name="tv_privacy_read">Leggi le informazioni sul trattamento dei dati</string>
+
+    <string name ="user_profile_title">Il mio Profilo</string>
+    <string name="reflexalert_continue">CONTINUA</string>
+    <string name="reflexalert_title">Test dei Riflessi</string>
+    <string name="reflexalert_descr">Questo minigioco testa i tuoi riflessi. \nUna volta premuto Continua la macchina partirà... \nFermala in tempo!</string>
+    <string name="drink_calculate">CALCOLA</string>
+    <string name="drink3_name">Nome del Drink</string>
+    <string name="drink_glass">Bicchiere</string>
+    <string name="drink_qty">Quanti?</string>
+    <string name="empty_stomach">Vuoto</string>
+    <string name="filled_stomach">Pieno</string>
+    <string name="drink_added">"%d Drink scelti"</string>
+    <string name="developed_by">Sviluppato da:</string>
+    <string name="version">Versione:</string>
+
+    <string name="card_remove">Vuoi rimuovere questo Drink?</string>
+
+    <string name="tv_start_reflex_test">START</string>
+
+    <string name="tv_minutes_ago">minuti fa</string>
+    <string name="tv_no_drink">Non ci sono ancora Drinks</string>
+    <string name="stomach_empty">Stomaco\nVuoto</string>
+    <string name="stomach_empty_history">Stomaco Vuoto</string>
+
+    <string name="stomach_full">Pasto\nCompleto</string>
+    <string name="stomach_full_history">Pasto Completo</string>
+
+    <string name="tv_sign_as_host">Entra come Ospite</string>
+    <string name="tv_guest">Ospite</string>
+    <string name="tv_other_login">oppure accedi con</string>
+    <string name="tv_guest_new">Ospite</string>
+
+    <string name="stomach_medium">Spuntino</string>
+    <string name="alc_per">Tasso</string>
+    <string name="stomach_hist">Stomaco</string>
+    <string name="hist_date_hour">Data e Ora</string>
+
+    <string name="tv_call_police">Polizia</string>
+    <string name="tv_call_ambulance">Ambulanza</string>
+    <string name="tv_get_home_safe">Torna a Casa</string>
+
+    <!-- Copied from new App -->
+    <string name="error_copyDatabaseFail">Copia del Database a %s fallita</string>
+
+    <!-- Drinks names -->
+    <string name="drinkId005_Analcolico">Analcolico</string>
+    <string name="drinkId011_PaleAle4">Birra Leggera 4%</string>
+    <string name="drinkId012_BrownAle5">Birra Scura 5%</string>
+    <string name="drinkId034_CremaDiBanane">Crema di Banana</string>
+    <string name="drinkId035_CremaDiLimoncello">Crema di Limoncello</string>
+    <string name="drinkId036_CremeDeCassis">Crema di Cassis</string>
+    <string name="drinkId041_DoubleMaltBeer10">Birra 10%</string>
+    <string name="drinkId054_IrishWhiskey">Whisky Irlandese</string>
+    <string name="drinkId055_JackAndCola">Jack e Cola</string>
+    <string name="drinkId057_JapaneseIcedTea">Ice Tea Giapponese</string>
+    <string name="drinkId062_CraftBeer5">Birra Chiara 5%</string>
+    <string name="drinkId065_MalibuCola">Malibu e Cola</string>
+    <string name="drinkId093_RumAndPear">Rum e Pera</string>
+    <string name="drinkId096_Scotch">Scotch</string>
+    <string name="drinkId101_Sidro">Sidro</string>
+    <string name="drinkId106_Spumante">Spumante</string>
+    <string name="drinkId109_Strega">Strega</string>
+    <string name="drinkId115_WhiteWine">Vino Bianco</string>
+    <string name="drinkId116_RedWine">Vino Rosso</string>
+    <string name="drinkId118_VodkaAromatizzata">Vodka Aromatizzata</string>
+    <string name="drinkId120_Whisky">Whisky</string>
+    <string name="drinkId122_Myrtle">Mirto</string>
+    <string name="drinkId124_SanSimone">Amaro San Simone</string>
+
+    <!-- Glasses measures -->
+    <string name="glassId03_DrinkMedium">Medium Drink (12 cl)</string>
+    <string name="glassId04_DrinkLong">Long Drink (18 cl)</string>
+    <string name="glassId05_WineGlass">Calice (15 cl)</string>
+    <string name="glassId07_BeerSmall">Birra piccola (20 cl)</string>
+    <string name="glassId08_BeerMedium">Birra media (40 cl)</string>
+    <string name="glassId09_Liter_0_33">Bottiglia da 33 cl</string>
+    <string name="glassId10_Liter_0_66">Bottiglia da 66 cl</string>
+    <string name="glassId11_PintBritish">Pinta inglese (56,8 cl)</string>
+    <string name="glassId12_PintAmerican">Pinta americana (47,3 cl)</string>
+    <string name="glassId13_Liter_0_50">Bicchiere da &#189; litro</string>
+    <string name="glassId14_Liter">Bicchiere da 1 litro</string>
+
+    <!-- Cose del TaxiFragment -->
+    <string name="uber_tvHint_pickUp">Posizione di partenza</string>
+    <string name="uber_tvHint_destination">Destinazione</string>
+
+    <!-- Cose del GetHomeSafeFragment -->
+    <string name="getHome_toast_notReady">Funzionalità ancora in sviluppo</string>
+    <string name="or_enter_with">oppure entra con</string>
+    <string name="you_te">te</string>
+    <string name="you_failed">Hai Perso!</string>
+    <string name="continue_reflex">CONTINUA</string>
+    <string name="be_ready_reflex">ASPETTA!</string>
+    <string name="notif_now_maiusc">Ora</string>
+    <string name="notif_now">ora</string>
+    <string name="menu_remove_all_drinks">Rimuovi tutti i Drink</string>
+    <string name="menu_remove_selected_drinks">Rimuovi i Drink selezionati</string>
+    <string name="full_dialog_delete">%d Drink rimosso/i</string>
+    <string name="add_custom_cocktail">Aggiungi il tuo Drink personalizzato</string>
+    <string name="histrory_intro">History calcolata alle</string>
+
+    <string name="perm_warning_coarseLocation">I servizi di Uber necessitano della tua posizione locale. Per favore, abilita il permesso nelle Impostazioni.\n\nGestione Permessi -> Abilita Permesso</string>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229809367707",
+    "firebase_url": "https://drinkapp-219815.firebaseio.com",
+    "project_id": "drinkapp-219815",
+    "storage_bucket": "drinkapp-219815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229809367707:android:6ba62e75233553c2",
+        "android_client_info": {
+          "package_name": "com.gildStudios.DiTo.androidApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229809367707-cflf0dofcgutp8529d1tl2ajalt0jen9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuqXpgwI4jyneovROT7Dxe9zhzHv6LJvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229809367707-cflf0dofcgutp8529d1tl2ajalt0jen9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

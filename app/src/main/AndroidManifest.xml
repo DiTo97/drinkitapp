@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gildStudios.DiTo.androidApp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:name="com.gildStudios.DiTo.androidApp.DrinkItApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${placesApiKey}"/>
+
+        <!-- Serve per Facebook SDK -->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/fb_appId"/>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"/>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="@string/fb_loginProtocolScheme"/>
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="${applicationId}.FacebookInitProvider"
+            android:exported="false"/>
+
+        <!-- !Serve per Facebook SDK -->
+
+        <activity android:name="com.gildStudios.DiTo.androidApp.activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.gildStudios.DiTo.androidApp.activities.AccessActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.gildStudios.DiTo.androidApp.activities.HomeActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <service
+            android:name="com.gildStudios.DiTo.androidApp.services.OnAppKilled"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:stopWithTask="false"/>
+
+        <service
+            android:name="com.gildStudios.DiTo.androidApp.services.CloudUpdateFlow"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <receiver android:name="com.gildStudios.DiTo.androidApp.NotificationPublisher"/>
+    </application>
+</manifest>
