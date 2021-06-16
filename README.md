@@ -24,10 +24,9 @@ This Android app features a proprietary NodeJS backend interacting with Firebase
 Implementation of statistical/AI models for BAC estimation, such as:
 
 - A. McAfee, J. Watson, et al. - **AlcoWear: Detecting Blood Alcohol Levels from Wearables**
-- P. Gharani, B. Suffoletto, et al. - **An Artificial Neural Network for Movement Pattern Analysis to Estimate Blood Alcohol Content Level**
 - M. A. Gutierrez, M. L. Fast, et al. - **Real-time Prediction of Blood Alcohol Content Using Smartwatch Sensor Data**
 - C. E. Fairbairna, D. Kanga, et al. - **Using Machine Learning for Real-time BAC Estimation from a New-generation Transdermal Biosensor in the Laboratory**
-- K. Aschbacher - **Machine Learning Prediction of Blood Alcohol Content: a Digital Signature of Behavior **
+- K. Aschbacher - **Machine Learning Prediction of Blood Alcohol Content: a Digital Signature of Behavior**
 
 ## Acknowledgements
 
