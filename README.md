@@ -9,7 +9,7 @@ The BAC level measures the amount of alcohol in the blood, therefore traveling t
 
 Still much needs to be done to raise awareness on the risks that alcohol abuse still poses in the late 2010s and why self-monitoring is a crucial step in all kinds of DUI prevention.
 
-## BSc thesis objective
+## Thesis objective
 
 This project revolves around the development of an Android mobile app, later named DrinkItApp, to encourage alcohol users' self-monitoring and to prevent DUI cases. It sports an easy-to-use and minimalistic interface to appear attractive to the users after repeated use, while facilitating the UX in case of intoxication. 
 
@@ -18,6 +18,16 @@ DrinkItApp settles in the niche/utility market sector, and as such, attractivene
 This Android app features a proprietary NodeJS backend interacting with Firebase cloud services, for monitoring the BAC level in peoples’ body. It is enriched with functionalities aimed at preventing damage to them, such as a Reflex mini-game, and the possibility to call emergency and mobility services nearby through GPS (i.e., Uber, police, ambulance). Another key feature of the app is modularity, as it implements a pseudo-MVC pattern. This choice proved to be advantageous and, in particular, it allowed us to build the BAC estimation module as a standalone module from the core app logic. This also means that the BAC estimation model can be easily substituted with something else, if that necessity will ever ask for it, for instance introducing the concepts of the first AI models that are seeing birth in the field granted knowledge of the drinking habits of a person, his/her gait patterns and transdermal biometrics.
 
 **Please note:** This codebase has not been maintained for a long time, as later iterations of the project have been moved to a different location following its release on the Play Store.
+
+## Future works
+
+Implementation of statistical/AI models for BAC estimation, such as:
+
+- A. McAfee, J. Watson, et al. - AlcoWear: Detecting Blood Alcohol Levels from Wearables
+- P. Gharani, B. Suffoletto, et al. - An Artificial Neural Network for Movement Pattern Analysis to Estimate Blood Alcohol Content Level
+- M. A. Gutierrez, M. L. Fast, et al. - Real-time Prediction of Blood Alcohol Content Using Smartwatch Sensor Data
+- C. E. Fairbairna, D. Kanga, et al. - Using Machine Learning for Real-time BAC Estimation from a New-generation Transdermal Biosensor in the Laboratory
+- K. Aschbacher - Machine Learning Prediction of Blood Alcohol Content: a Digital Signature of Behavior 
 
 ## Acknowledgements
 
